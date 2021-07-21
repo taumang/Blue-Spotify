@@ -2,7 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-
+body{
+  background: rgba(106, 234, 238, 1.0);
+background: -webkit-radial-gradient(top left, rgba(134, 142, 220, 1.0), rgba(255, 93, 91, 1.0));
+background: -moz-radial-gradient(top left, rgba(134, 142, 220, 1.0), rgba(255, 93, 91, 1.0));
+background: radial-gradient(to bottom right, rgba(134, 142, 220, 1.0), rgba(255, 93, 91, 1.0));
+}
 
 /* body {
   margin: 0;

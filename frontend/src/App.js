@@ -1,13 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
-import Player_ui from './components/player_ui';
+import Login from './components/Login';
+import Dashboard from './components/Dashboard'
+
+
+const code = new URLSearchParams(window.location.search).get('code');
 
 function App() {
-  return (
-    <div className="App">
-      <Player_ui />
-    </div>
-  );
+  
+  return code ? <Dashboard code={code}/> : <Login />
 }
+      
+    
+
+
 
 export default App;
