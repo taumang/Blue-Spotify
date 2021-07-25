@@ -1,6 +1,6 @@
 import React from 'react'
 
-const AUTH_URL = "https://accounts.spotify.com/authorize?client_id=637a3bbbcc30400e897ce9e8a7dacf83&response_type=code&redirect_uri=http://localhost:3000&scope=streaming%20user-read-emial%20user-read-private%20user-library-read%20user-library-moidfy%20user-read-playback-state%20user-modify-playback-state"
+const AUTH_URL = "https://accounts.spotify.com/authorize?client_id=637a3bbbcc30400e897ce9e8a7dacf83&response_type=code&redirect_uri=http://localhost:3000&scope=streaming%20user-read-email%20user-read-private%20user-library-read%20user-library-modify%20user-read-playback-state%20user-modify-playback-state"
 
 function Login() {
     return (
@@ -19,4 +19,3 @@ function Login() {
 export default Login
 
 
-//
